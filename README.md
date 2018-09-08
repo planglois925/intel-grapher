@@ -1,11 +1,11 @@
 # intel_grapher
 
-#Requirements [to be added to a requirements.txt]
+# Requirements 
 Docker [if you want to run neo4j locally and easily]
 Requests
 py2neo
 
-#Getting started
+# Getting started
 First install neo4j using docker onto your system
 
 
@@ -18,13 +18,14 @@ Login and it'll force you to change the password. For testing and dev purposes w
 
 To test data ingestion, run the tester.py file and it should consume some of the data
 
-#NEXT STEPS
+# NEXT STEPS
 
 Create the API end-points based on the nodes and relationships
 Develop some basic API queries that can be used
 Add additional plugins
+Build some form of front end to interact and query the data
 
-#Plugin Design
+# Plugin Design
 To help facilitate the creation of different plugins, here are the recommended structured and elements for each plugin:
-Plugins need to provide a means to collecting data, transforming it and querying it.
+Plugins need to provide a means to collecting data, transforming it and querying it. 
 
