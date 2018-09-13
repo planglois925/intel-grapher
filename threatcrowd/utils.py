@@ -11,6 +11,7 @@ This module has all the functions required to access and process the data from T
 #TODO: Validate the type of data for MD5, Domains, Emails, IP
 #TODO: Double check to see if md5s can be connected to an email address
 #TODO: Add way to find malware name from the md5 hash
+#TODO: if there's not a value, pass instead of creating a blank node
 
 
 def get_TC_email(email):
